@@ -1,4 +1,4 @@
-
+// class
 // class A {
 
 //     int l = 15, b = 50;
@@ -17,6 +17,7 @@
 //     }
 // }
 
+// constructor overloading
 // class p3 {
 //     int id;
 //     String name;
@@ -51,7 +52,7 @@
 //     }
 // }
 
-
+// method overloading
 class A {
     int l = 20, b = 30;
 
