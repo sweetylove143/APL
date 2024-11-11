@@ -1,4 +1,4 @@
-// //A
+// Abstract
 // abstract class Shape {
 //     abstract double area();
 // }
@@ -40,8 +40,7 @@
 // }
 
 
-//B
-
+// Super
 // class A {
 //     int length, breadth;
 
@@ -72,7 +71,7 @@
 //     }
 // }
 
-//C
+// Interface
 // interface A {
 //     void display();
 // }
@@ -98,8 +97,7 @@
 // }
 
 
-//D
-
+// multiple Inheritance
 interface Area {
     float compute(float x, float y);
 }
