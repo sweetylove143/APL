@@ -26,6 +26,13 @@ public class Move extends Frame implements ActionListener {
         right.addActionListener(this); 
         left.addActionListener(this); 
         exit.addActionListener(this); 
+        
+        // Handle close button
+        addWindowListener(new WindowAdapter() {
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
+            }
+        });
     } 
     
     public void actionPerformed(ActionEvent ae) { 
